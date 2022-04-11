@@ -13,31 +13,31 @@ h1 {
 	background-color: rgb(153, 153, 168);
 	color: rgb(235, 235, 235); /* Same as body background. */
 	font-size: 4em;
-	padding: 2rem 1rem .1rem; /* You want three values. */
+	padding: 4rem 1rem .5rem; /* You want three values. */
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
 /* You’ll need to add a span element to your HTML. */
 h1 span { 	
-	font-family: sans-serif;
+	font-family: serif;
 	font-style: italic;
 	font-weight: normal;
-	text-transform: uppercase;
+	text-transform: none;
 }
 
 h2 {
 	background-color: rgb(153, 153, 168);
 	color: rgb(224, 224, 224);
 	font-size: 2em;
-	padding: 1.5rem 1rem 1rem;
-	font-family: sans-serif;
+	padding: 1.5rem 1rem 1.7rem;
+	font-family: serif;
 	font-weight: bold;
 }
 
 h3 {
 	margin: 3rem 1rem .1rem; /*Three values again. You got the idea.*/
-	padding-top: 3rem 1rem .1rem;
+	padding-top: .7rem;
 	font-size: 1.5rem;
 	color: rgb(169, 55, 43);
 	font-weight: bolder;
@@ -60,7 +60,7 @@ p.price {
 }
 
 ul {
-	margin: 1rem 1rem .05rem;
+	margin: 1rem 0rem 4.3rem;
 }
 
 li { 
