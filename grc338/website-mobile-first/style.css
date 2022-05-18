@@ -45,6 +45,7 @@ h2 {
     font-family: abril-display,serif;
     font-weight: 700;
     font-style: italic;
+	text-height: auto;
    
 }
 h3 {
