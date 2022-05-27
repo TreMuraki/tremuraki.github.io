@@ -166,7 +166,12 @@ figure {
     grid-column: 1/1;
     padding-top: 2rem;
     
-    
+}
+
+figure.pastamenu{
+    grid-column: 2/3;
+    padding-top: 2rem;
+    padding-right: 1em;
 }
 
 p.long{
@@ -176,12 +181,23 @@ p.long{
 
 ul li.open{
     grid-column: 2/3 ;
+    
 }
 p.long{
     padding-top: 2em;
     
 }
-    
+div.times{
+    grid-column: 2/ 3;
+    grid-row: 2/3;
+   
+}
+main {
+    grid-column: 1/1;
+    padding-top: 2rem;
+    max-width: 40%;
+    padding-left: 1.5rem ;
 }
 
 
+}
