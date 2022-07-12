@@ -1,23 +1,113 @@
-/*CSS document*/
+  /*CSS document*/
 
 body {
-
+    background-color: #fafafa;
+    margin: 0em;
 }
 
 div.container {
-    max-width: 40em;
+    max-width: 30em;
     margin: auto;
 }
 
 figure {
-    margin: 0;
+    margin: 0em;
 }
 
 img {
     width: 100%;
+    margin-top: 0.5em;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
+    margin-top: 0em;
+    margin-bottom: 2.25em;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin-right: .75em;
+    font-family: loos-normal,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+}
+  
+nav ul li a {
+    color: #242526;
+    text-decoration: none;
+}
+  
+nav ul li a:hover {
+    color: #6B705C;
+}
+
+h1 {
+    margin-bottom: 0.2em;
+    width: 80%;
+}
+
+h2 {
+    font-family: corundum-text,serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.65em;
+    width: 18em;
+    margin-top: 0.75em;
+    margin-bottom: 0.5em;
+    color: #2C3C20;
+    line-height: 1.45;
+}
+
+h3 {
+    font-family: corundum-text,serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.35em;
+    width: 18em;
+    margin-top: 0.75em;
+    margin-bottom: 0.5em;
+    color: #2C3C20;
+}
+
+figcaption {
+    font-family: loos-normal,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1em;
+    margin: 0.25em 1em 0.85em 0em;
+    color: #242526;
+}
+
+p {
+    font-family: loos-normal,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    margin: 0em 1em 0.5em 0em;
+    color: #242526;
+}
+
+.teaserStoryimage a{
+    text-decoration: none;
+
+}
+
+.teaserStoryimage a :hover{
+    color: #6B705C;
+}
+
+.teaserStory a{
+    text-decoration: none;
+}
+
+footer p{
+    font-family: corundum-text,serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1em;
+    margin-top: 1em;
 }
