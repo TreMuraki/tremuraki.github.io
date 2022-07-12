@@ -1,4 +1,4 @@
-  /*CSS document*/
+/*CSS document*/
 
 body {
     background-color: #fafafa;
@@ -103,7 +103,14 @@ p {
 .teaserStory a{
     text-decoration: none;
 }
+.teaserMain a{
+    text-decoration: none;
+}
 
+.teaserMain a :hover{
+    color: #6B705C;
+    }
+    
 footer p{
     font-family: corundum-text,serif;
     font-weight: 600;
