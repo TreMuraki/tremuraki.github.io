@@ -10,6 +10,11 @@ div.container {
     margin: 0 auto 3em;
 }
 
+div.containerMain {
+    max-width: 80em;
+    margin: 0 auto 3em;
+}
+
 figure {
     margin: 0em;
 }
