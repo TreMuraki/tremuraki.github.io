@@ -136,7 +136,7 @@ footer p{
 @media screen and (min-width: 60em){
     div.container{
         display: grid;
-        grid-template-columns: 3fr 1fr;
+        grid-template-columns: 3fr ;
         grid-gap: 0 1em;
     }
 
@@ -146,6 +146,7 @@ footer p{
     }
 
     main{
+        
         grid-column: 1/2;
         display: grid;
         grid-template-columns: repeat(3,1fr);
@@ -154,7 +155,7 @@ footer p{
 
     section.teaserMain{
         grid-column: 1/3;
-        grid-row: 1/1;
+        grid-row: 1/3;
         display: flex;
         flex-direction: column;
     }
@@ -164,18 +165,103 @@ footer p{
         display: flex;
         flex-direction: column;
     }
-    
+    section.teaserMain figure {
+        flex: 1 0 18em;
+        background-image: url(photo1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    section.teaserMain figure img {
+        height: 80%;
+        opacity: 0;
+    }
+
+    section.teaserMain figure figcaption{
+        flex: 0 0 3em;
+        margin-bottom: 0em;
+    }
+    section.teaserMain h3{
+        flex: 0 0 auto;
+        margin: 0;
+        margin-bottom: 0.5em;
+        margin-top: 1em;
+    }
+
+    section.teaserMain p{
+        flex: 0 0 auto;
+        margin: 0;
+    }
+    section.sidebar{
+        grid-column: 3/3;
+        grid-row: 1/3;
+        display:flex; 
+        flex-direction: column;
+    }
+    section.sidebar figure {
+        flex: 1 0 18em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.sidebar figure figcaption{
+        flex: 0 0 3em;
+        margin-bottom: 0em;
+    }
+    section.sidebar h3{
+        flex: 0 0 auto;
+        margin: 0;
+        margin-bottom: 0.5em;
+        margin-top: 1em;
+    }
+
+    section.sidebar p{
+        flex: 0 0 auto;
+        margin: 0;
+    }
+
     section.teaserWord{
         grid-column: 1/3;
-        grid-row: 3/3;
+        grid-row: 4/4;
         display: inline-grid;
         max-width: 60%;
         
     }
+    section.bottom{
+       grid-column: 1/3;
+       grid-row: 3/4;
+       display:flex;
+       flex-direction:row;
+       max-width:max-content;
+       grid-gap:0 1em;
+
+    }
+    section.bottom img{
+        width: 400px; 
+        height: 300px; 
+        object-fit: cover;
+    }
+    section.bottom figure{
+        flex: 1 0 18em;
+        display:flex;
+        
+    }
+
+
+
     footer{
         grid-row: 4/4;
         grid-column: 1/3;
         display: grid;
     }
+    article figure{
+        max-width:  35em;
+    }
 
-} 
+    article p{
+        max-width:  50em;
+        padding-bottom: 1.25em;
+    }
+    
+}
