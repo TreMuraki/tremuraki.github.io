@@ -2,12 +2,12 @@
 
 body {
     background-color: #fafafa;
-    margin: 0em;
+    margin: 1em;
 }
 
 div.container {
-    max-width: 30em;
-    margin: auto;
+    max-width: 80em;
+    margin: 0 auto 3em;
 }
 
 figure {
@@ -16,7 +16,6 @@ figure {
 
 img {
     width: 100%;
-    margin-top: 0.5em;
 }
 
 ul {
@@ -74,6 +73,10 @@ h3 {
     color: #2C3C20;
 }
 
+figure {
+    margin-top: 0.5em;
+}
+
 figcaption {
     font-family: loos-normal,sans-serif;
     font-weight: 400;
@@ -104,6 +107,7 @@ p {
 .teaserStory a{
     text-decoration: none;
 }
+
 .teaserMain a{
     text-decoration: none;
 }
@@ -111,7 +115,16 @@ p {
 .teaserMain a :hover{
     color: #6B705C;
     }
-    
+
+    section.teaserWord{
+        margin-top: 1em;
+        padding-bottom: 1.5em;
+    }
+footer{
+    border-top: #242526;
+    border-top-style: solid;
+    margin-top: 3em ;
+}
 footer p{
     font-family: corundum-text,serif;
     font-weight: 600;
@@ -119,7 +132,6 @@ footer p{
     font-size: 1em;
     margin-top: 1em;
 }
-
 
 @media screen and (min-width: 60em){
     div.container{
@@ -130,6 +142,7 @@ footer p{
 
     header{
         grid-column: 1/3;
+        max-width: 60%;
     }
 
     main{
@@ -140,8 +153,8 @@ footer p{
     }
 
     section.teaserMain{
-        grid-column:2/4;
-        grid-row: 1/3;
+        grid-column: 1/3;
+        grid-row: 1/1;
         display: flex;
         flex-direction: column;
     }
@@ -151,37 +164,18 @@ footer p{
         display: flex;
         flex-direction: column;
     }
-
-    section.teaserMain figure div {
-        flex: 1 0 18em;
-        background-image: url(Images/landscape_portrait.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+    
+    section.teaserWord{
+        grid-column: 1/3;
+        grid-row: 3/3;
+        display: inline-grid;
+        max-width: 60%;
+        
+    }
+    footer{
+        grid-row: 4/4;
+        grid-column: 1/3;
+        display: grid;
     }
 
-    section.teaserMain figure div img {
-        height: 100%;
-        opacity: 0;
-    }
-
-    section.teaserMain figure figcaption{
-        flex: 0 0 3em;
-        margin-bottom: 0em;
-    }
-    section.teaserMain h3{
-        flex: 0 0 auto;
-        margin: 0;
-        margin-bottom: 0.5em;
-        margin-top: 0em;
-    }
-
-    section.teaserMain p{
-        flex: 0 0 auto;
-        margin: 0;
-    }
-
-    aside{
-        grid-column: 2/3;
-    }
-}
+} 
